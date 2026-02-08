@@ -1,0 +1,53 @@
+body {
+  background: #eef2f7;
+  font-family: Arial, sans-serif;
+}
+
+/* Login Background */
+#loginPage {
+  background: url("https://images.pexels.com/photos/433267/pexels-photo-433267.jpeg?auto=compress&cs=tinysrgb&w=1200")
+    center/cover no-repeat;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: linear-gradient(180deg, #0d6efd, #6610f2);
+  color: white;
+  min-height: 100vh;
+}
+
+.sidebar button {
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.sidebar button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Sections */
+.section {
+  display: none;
+}
+
+/* Cards */
+.card-box {
+  border-radius: 15px;
+}
+
+/* Logo */
+.logo-img {
+  width: 80px;
+}
+
+/* Login Card */
+.login-card {
+  width: 380px;
+  background: rgba(255, 255, 255, 0.9);
+}
